@@ -1,26 +1,46 @@
 body{
     margin: 0;
 }
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.poppins{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 header{
     height: 70vh;
-    background: black;
+    background-image: url("pictures/headerBack.png");
+    background-position: center;
+    background-size: cover;
 }
 .first{
     height: 200vh;
-    background: cadetblue;
-    display: flex;
-
+    background: white;
 }
 .second{
     height: 64vh;
-    background-image: url("contactIMG.png");
+    background-image: url("pictures/contactBack.png");
     background-size: cover;
 }
 .third{
     height: 100vh;
-    background: lightgreen;
+    background: white;
 }
 footer{
     height: 40vh;
-    background: lightskyblue;
+    background-image: url("pictures/footerBack.png");
+    background-size: cover;
 }
