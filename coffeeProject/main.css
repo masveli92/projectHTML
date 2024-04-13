@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+header{
+    height: 70vh;
+    background: black;
+}
+.first{
+    height: 200vh;
+    background: cadetblue;
+    display: flex;
+
+}
+.second{
+    height: 64vh;
+    background-image: url("contactIMG.png");
+    background-size: cover;
+}
+.third{
+    height: 100vh;
+    background: lightgreen;
+}
+footer{
+    height: 40vh;
+    background: lightskyblue;
+}
