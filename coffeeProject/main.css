@@ -111,7 +111,7 @@ header{
 .second{
     width: 1440px;
     height: 650px;
-    background-image: url("pictures/contactIMG.png");
+    background-image: url("pictures/contactBack.png");
     /*display: flex;*/
     /*!*flex-direction: column;*!*/
     /*!*justify-content: center; !* Центрує по вертикалі *!*!*/
@@ -205,7 +205,7 @@ header{
     flex-shrink: 0;
     border-radius: 20px;
     background: #FFF;
-    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
+    box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.20);
 }
 .two{
     width: 362px;
@@ -213,7 +213,7 @@ header{
     flex-shrink: 0;
     border-radius: 20px;
     background: #FFF;
-    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
+    box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.20);
 }
 .free{
     width: 362px;
@@ -221,7 +221,7 @@ header{
     flex-shrink: 0;
     border-radius: 20px;
     background: #FFF;
-    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
+    box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.20);
 }
 .---{
     height: 362px;
@@ -371,7 +371,7 @@ footer>p {
 .image-icon1 {
     position: absolute;
     top: 554px;
-    left: 0px;
+    left: 0;
     width: 362px;
     height: 230px;
     object-fit: cover;
